@@ -110,9 +110,7 @@ function subStockView($param)
       </table>
     </div>
 
-    <input type="image" src="./images/btn_search.png" onclick="form.act.value='stockEditComplete';form.submit();" />
-
-    <hr />
+    <input type="image" src="./images/btn_search.png" onclick="form.act.value='stockSearch';form.submit();">
 
     <?php
     if ($_REQUEST['act'] == 'stock') {
